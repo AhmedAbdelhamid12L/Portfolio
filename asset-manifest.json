@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.496256c4.chunk.css",
+    "main.js": "/Portfolio/static/js/main.e01a527f.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.e01a527f.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.9e68f212.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.9e68f212.js.map",
+    "static/css/2.aa33b2ff.chunk.css": "/Portfolio/static/css/2.aa33b2ff.chunk.css",
+    "static/js/2.2ee20aeb.chunk.js": "/Portfolio/static/js/2.2ee20aeb.chunk.js",
+    "static/js/2.2ee20aeb.chunk.js.map": "/Portfolio/static/js/2.2ee20aeb.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/2.aa33b2ff.chunk.css.map": "/Portfolio/static/css/2.aa33b2ff.chunk.css.map",
+    "static/css/main.496256c4.chunk.css.map": "/Portfolio/static/css/main.496256c4.chunk.css.map",
+    "static/js/2.2ee20aeb.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.2ee20aeb.chunk.js.LICENSE.txt",
+    "static/media/ANGORA.3186412a.PNG": "/Portfolio/static/media/ANGORA.3186412a.PNG",
+    "static/media/Bakery.48fa0727.PNG": "/Portfolio/static/media/Bakery.48fa0727.PNG",
+    "static/media/BookmarkWebsite.3bf0e9c1.PNG": "/Portfolio/static/media/BookmarkWebsite.3bf0e9c1.PNG",
+    "static/media/CRUDSystem.5fa294cb.PNG": "/Portfolio/static/media/CRUDSystem.5fa294cb.PNG",
+    "static/media/Dev. Abdelhamid cv.863c0179.pdf": "/Portfolio/static/media/Dev. Abdelhamid cv.863c0179.pdf",
+    "static/media/LoginSystem.b95de3ad.PNG": "/Portfolio/static/media/LoginSystem.b95de3ad.PNG",
+    "static/media/MODALjs.e9e93635.PNG": "/Portfolio/static/media/MODALjs.e9e93635.PNG",
+    "static/media/MovieJs.592ada20.PNG": "/Portfolio/static/media/MovieJs.592ada20.PNG",
+    "static/media/MovieReact.e8881838.PNG": "/Portfolio/static/media/MovieReact.e8881838.PNG",
+    "static/media/NotesReact.9eb06ca2.PNG": "/Portfolio/static/media/NotesReact.9eb06ca2.PNG",
+    "static/media/Quiz.f8d9f004.PNG": "/Portfolio/static/media/Quiz.f8d9f004.PNG",
+    "static/media/Weathr.096cf10b.PNG": "/Portfolio/static/media/Weathr.096cf10b.PNG",
+    "static/media/Wedding.6b5fc77f.PNG": "/Portfolio/static/media/Wedding.6b5fc77f.PNG",
+    "static/media/all.css": "/Portfolio/static/media/fa-solid-900.eeccf4f6.woff",
+    "static/media/my photo.011d4bc1.jpeg": "/Portfolio/static/media/my photo.011d4bc1.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e68f212.js",
+    "static/css/2.aa33b2ff.chunk.css",
+    "static/js/2.2ee20aeb.chunk.js",
+    "static/css/main.496256c4.chunk.css",
+    "static/js/main.e01a527f.chunk.js"
+  ]
+}

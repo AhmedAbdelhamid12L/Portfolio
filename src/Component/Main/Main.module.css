@@ -1,0 +1,21 @@
+.mainH1 {
+  font-size: 3rem;
+  display: inline-block;
+}
+
+.line {
+  width: 100px;
+  height: 5px;
+  background-color: white;
+  margin: 20px 0px;
+}
+
+.mainImg {
+  width: 100%;
+  border-radius: 3%;
+}
+
+.mainStyle {
+  background-color: #198754;
+  padding: 6rem 0rem;
+}

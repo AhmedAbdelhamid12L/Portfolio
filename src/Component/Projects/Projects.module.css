@@ -1,0 +1,12 @@
+.serviceH2 {
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+}
+
+.line {
+  width: 100px;
+  height: 5px;
+  background-color: white;
+  margin: 20px 0px;
+}

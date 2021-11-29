@@ -1,0 +1,24 @@
+.aboutContainer {
+  margin: auto;
+  color: white;
+  padding: 5rem 0rem;
+}
+
+.aboutH2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.line {
+  width: 100px;
+  height: 5px;
+  background-color: white;
+  margin: 20px 0px;
+}
+
+.aboutDesc {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.7;
+  width: 75%;
+}

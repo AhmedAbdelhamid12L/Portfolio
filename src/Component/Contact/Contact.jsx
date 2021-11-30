@@ -20,7 +20,7 @@ export default function Contact() {
   } , 5000)
   return (
     <div>
-      <div id="contact" className="container p-5">
+      <div className="container p-5">
         <div>
           <h2 className={style.contactH2}>CONTACT ME</h2>
           <div className="d-flex align-items-center justify-content-center">
@@ -31,15 +31,15 @@ export default function Contact() {
         </div>
         <div className='container pt-5'>
           <div className='row'>
-            <div className='col-md-5 pt-5 mt-5'>
+            <div className='col-md-4 pt-5 mt-5'>
               <p className='h3'><i className='fas fa-map-marker-alt pe-3'></i> Address </p>
               <p className='fs-4 pb-4'> Ismailia, Egypt </p>
               <p className='h3'><i className='fas fa-phone-alt pe-3'></i> Tel. </p>
               <p className='fs-4 pb-4'> (+2) 01151667739  </p>
               <p className='h3'><i className='fas fa-envelope pe-3'></i> E-mail </p>
-              <p className='fs-4 pb-4'> ahmedabdelhamid121296@gmail.com </p>
+              <p className='pb-4'> ahmedabdelhamid121296@gmail.com </p>
             </div>
-            <div className='col-md-7'>
+            <div className='col-md-8'>
               <form onSubmit={sendEmail}>
                 <input type="text" 
                 className="form-control mb-2 py-4 border-0 border-bottom border-2 m-auto fs-4" 

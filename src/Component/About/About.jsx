@@ -6,7 +6,7 @@ import style from "./About.module.css"
 
 export default function About() {
   return (
-    <div id="about" className="bg-success">
+    <div>
       <div className={style.aboutContainer}>
         <div>
           <h2 className={style.aboutH2}>ABOUT Me</h2>
@@ -19,7 +19,7 @@ export default function About() {
         <div>
         <div className='container'>
           <div className='py-4'>
-            <p className='h2 pb-3 text-dark'>My Name is Ahmed Abdelhamid</p>
+            <p className='h2 pb-3'>My Name is Ahmed Abdelhamid</p>
             <p className={style.aboutDesc}>I graduated from the Faculty of Civil Engineering in 2019, <br />
               and worked for a year as a concrete structures designer, 
               but now I have experience in developing websites using  

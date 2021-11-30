@@ -16,12 +16,12 @@ import logo12 from  '../../images/MODALjs.PNG'
 export default class Projects extends Component {
   render() {
     return (
-      <div className="bg-success">
+      <div>
         <div className='py-5'>
           <h2 className={style.serviceH2}>MY PROJECTS</h2>
           <div className="d-flex align-items-center justify-content-center">
             <div className={style.line}></div>
-            <i className="fas fa-star fa-3x px-2 text-white"></i>
+            <i className="fas fa-star fa-3x px-2"></i>
             <div className={style.line}></div>
           </div>
         </div>
@@ -178,7 +178,7 @@ export default class Projects extends Component {
             <h2 className={style.serviceH2}>MY SERVICES</h2>
             <div className="d-flex align-items-center justify-content-center">
               <div className={style.line}></div>
-              <i className="fas fa-star fa-3x px-2 text-white"></i>
+              <i className="fas fa-star fa-3x px-2"></i>
               <div className={style.line}></div>
             </div>
           </div>

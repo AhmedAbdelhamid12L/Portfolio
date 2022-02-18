@@ -36,7 +36,7 @@ export default function About() {
             </div>
           </div>
           <div className="row pt-5">
-            <div className="col-md-3 col-sm-6 p-4">
+            <div className="col-md-3 col-sm-5 p-4">
             <CircularProgressbarWithChildren
                 value={90}
                 styles={buildStyles({
@@ -65,7 +65,7 @@ export default function About() {
                 <p className='text-center h3'>HTML <br /> 90% </p>
               </CircularProgressbarWithChildren>
             </div>
-            <div className="col-md-3 col-sm-6 p-4">
+            <div className="col-md-3 col-sm-5 p-4">
             <CircularProgressbarWithChildren
                 value={90}
                 styles={buildStyles({
@@ -82,7 +82,7 @@ export default function About() {
                 <p className='text-center h3'>CSS&SASS<br /> 90% </p>
               </CircularProgressbarWithChildren>
             </div>
-            <div className="col-md-3 col-sm-6 p-4">
+            <div className="col-md-3 col-sm-5 p-4">
             <CircularProgressbarWithChildren
                 value={85}
                 styles={buildStyles({
@@ -99,7 +99,7 @@ export default function About() {
                 <p className='text-center h3'>JAVASCRIPT<br /> &ES6 <br /> 85% </p>
               </CircularProgressbarWithChildren>
             </div>
-            <div className="col-md-3 col-sm-6 p-4">
+            <div className="col-md-3 col-sm-5 p-4">
             <CircularProgressbarWithChildren
                 value={85}
                 styles={buildStyles({
@@ -116,7 +116,7 @@ export default function About() {
                 <p className='text-center h3'>REACT.JS<br /> 85% </p>
               </CircularProgressbarWithChildren>
             </div>
-            <div className="col-md-3 col-sm-6 p-4">
+            <div className="col-md-3 col-sm-5 p-4">
             <CircularProgressbarWithChildren
                 value={70}
                 styles={buildStyles({
@@ -133,7 +133,7 @@ export default function About() {
                 <p className='text-center h3'>NODE.JS<br /> 70% </p>
               </CircularProgressbarWithChildren>
             </div>
-            <div className="col-md-3 col-sm-6 p-4">
+            <div className="col-md-3 col-sm-5 p-4">
             <CircularProgressbarWithChildren
                 value={70}
                 styles={buildStyles({
@@ -150,7 +150,7 @@ export default function About() {
                 <p className='text-center h3'>EXPRESS.JS<br /> 70% </p>
               </CircularProgressbarWithChildren>
             </div>
-            <div className="col-md-3 col-sm-6 p-4">
+            <div className="col-md-3 col-sm-5 p-4">
             <CircularProgressbarWithChildren
                 value={65}
                 styles={buildStyles({
@@ -164,10 +164,10 @@ export default function About() {
                   backgroundColor: '#3e98c7',
                 })}
               >
-                <p className='text-center h3'>SQL & NOSQL DB<br /> 65% </p>
+                <p className='text-center h3'>SQL & <br /> NOSQL DB<br /> 65% </p>
               </CircularProgressbarWithChildren>
             </div>
-            <div className="col-md-3 col-sm-6 p-4">
+            <div className="col-md-3 col-sm-5 p-4">
             <CircularProgressbarWithChildren
                 value={70}
                 styles={buildStyles({
@@ -181,7 +181,7 @@ export default function About() {
                   backgroundColor: '#3e98c7',
                 })}
               >
-                <p className='text-center h3'>MONGODB & MYSQL<br /> 70% </p>
+                <p className='text-center h3'>MONGODB & <br /> MYSQL<br /> 70% </p>
               </CircularProgressbarWithChildren>
             </div>
           </div>

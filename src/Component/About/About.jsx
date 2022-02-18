@@ -23,7 +23,7 @@ export default function About() {
             <p className={style.aboutDesc}>I graduated from the Faculty of Civil Engineering in 2019, <br />
               and worked for a year as a concrete structures designer, 
               but now I have experience in developing websites using  
-              <span className='h4 text-warning'> REACT JAVASCRIPT </span> <br /> 
+              <span className='h4 text-warning'> REACT & NODE JAVASCRIPT </span> <br /> 
               and I have created many projects.
             </p>
           </div>
@@ -36,7 +36,7 @@ export default function About() {
             </div>
           </div>
           <div className="row pt-5">
-            <div className="col-md-3 p-4">
+            <div className="col-md-3 col-sm-6 p-4">
             <CircularProgressbarWithChildren
                 value={90}
                 styles={buildStyles({
@@ -65,7 +65,7 @@ export default function About() {
                 <p className='text-center h3'>HTML <br /> 90% </p>
               </CircularProgressbarWithChildren>
             </div>
-            <div className="col-md-3 p-4">
+            <div className="col-md-3 col-sm-6 p-4">
             <CircularProgressbarWithChildren
                 value={90}
                 styles={buildStyles({
@@ -82,7 +82,7 @@ export default function About() {
                 <p className='text-center h3'>CSS&SASS<br /> 90% </p>
               </CircularProgressbarWithChildren>
             </div>
-            <div className="col-md-3 p-4">
+            <div className="col-md-3 col-sm-6 p-4">
             <CircularProgressbarWithChildren
                 value={85}
                 styles={buildStyles({
@@ -99,7 +99,7 @@ export default function About() {
                 <p className='text-center h3'>JAVASCRIPT<br /> &ES6 <br /> 85% </p>
               </CircularProgressbarWithChildren>
             </div>
-            <div className="col-md-3 p-4">
+            <div className="col-md-3 col-sm-6 p-4">
             <CircularProgressbarWithChildren
                 value={85}
                 styles={buildStyles({
@@ -114,6 +114,74 @@ export default function About() {
                 })}
               >
                 <p className='text-center h3'>REACT.JS<br /> 85% </p>
+              </CircularProgressbarWithChildren>
+            </div>
+            <div className="col-md-3 col-sm-6 p-4">
+            <CircularProgressbarWithChildren
+                value={70}
+                styles={buildStyles({
+                  rotation: 0.25,
+                  strokeLinecap: 'butt',
+                  textSize: '16px',
+                  pathTransitionDuration: 0.5,
+                  pathColor: `rgba(62, 152, 199, ${70 / 100})`,
+                  textColor: '#f88',
+                  trailColor: '#d6d6d6',
+                  backgroundColor: '#3e98c7',
+                })}
+              >
+                <p className='text-center h3'>NODE.JS<br /> 70% </p>
+              </CircularProgressbarWithChildren>
+            </div>
+            <div className="col-md-3 col-sm-6 p-4">
+            <CircularProgressbarWithChildren
+                value={70}
+                styles={buildStyles({
+                  rotation: 0.25,
+                  strokeLinecap: 'butt',
+                  textSize: '16px',
+                  pathTransitionDuration: 0.5,
+                  pathColor: `rgba(62, 152, 199, ${70 / 100})`,
+                  textColor: '#f88',
+                  trailColor: '#d6d6d6',
+                  backgroundColor: '#3e98c7',
+                })}
+              >
+                <p className='text-center h3'>EXPRESS.JS<br /> 70% </p>
+              </CircularProgressbarWithChildren>
+            </div>
+            <div className="col-md-3 col-sm-6 p-4">
+            <CircularProgressbarWithChildren
+                value={65}
+                styles={buildStyles({
+                  rotation: 0.25,
+                  strokeLinecap: 'butt',
+                  textSize: '16px',
+                  pathTransitionDuration: 0.5,
+                  pathColor: `rgba(62, 152, 199, ${65 / 100})`,
+                  textColor: '#f88',
+                  trailColor: '#d6d6d6',
+                  backgroundColor: '#3e98c7',
+                })}
+              >
+                <p className='text-center h3'>SQL & NOSQL DB<br /> 65% </p>
+              </CircularProgressbarWithChildren>
+            </div>
+            <div className="col-md-3 col-sm-6 p-4">
+            <CircularProgressbarWithChildren
+                value={70}
+                styles={buildStyles({
+                  rotation: 0.25,
+                  strokeLinecap: 'butt',
+                  textSize: '16px',
+                  pathTransitionDuration: 0.5,
+                  pathColor: `rgba(62, 152, 199, ${70 / 100})`,
+                  textColor: '#f88',
+                  trailColor: '#d6d6d6',
+                  backgroundColor: '#3e98c7',
+                })}
+              >
+                <p className='text-center h3'>MONGODB & MYSQL<br /> 70% </p>
               </CircularProgressbarWithChildren>
             </div>
           </div>

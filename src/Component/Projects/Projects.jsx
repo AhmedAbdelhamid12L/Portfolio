@@ -11,7 +11,7 @@ import logo8 from "../../images/Wedding.PNG";
 import logo9 from "../../images/BookmarkWebsite.PNG";
 import logo10 from "../../images/CRUDSystem.PNG";
 import logo11 from "../../images/OnlineStore.PNG";
-import logo12 from "../../images/MODALjs.PNG";
+import logo12 from "../../images/Books.PNG";
 
 export default class Projects extends Component {
   render() {
@@ -28,7 +28,7 @@ export default class Projects extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-4 py-4">
-              <div className="card">
+              <div className="card d-flex flex-column justify-content-around">
                 <img src={logo11} className="card-img-top" alt="OnlineStore" />
                 <div className="card-body">
                   <h5 className="card-title pt-4">Online Store</h5>
@@ -48,7 +48,25 @@ export default class Projects extends Component {
               </div>
             </div>
             <div className="col-md-4 py-4">
-              <div className="card">
+              <div className="card d-flex flex-column justify-content-around">
+                <img src={logo12} className="card-img-top" alt="FavoriteBooks" />
+                <div className="card-body">
+                  <h5 className="card-title pt-4">Favorite Books</h5>
+                  <p className="card-text">MERNG Project - Simple Full Stack Project <br /> React & Node.js & Mongo & GraphQl</p>
+                  <div className="d-flex justify-content-center">
+                    <a
+                      href="https://ahmedabdelhamid12l.github.io/favorite-books-client/"
+                      target="_blank"
+                      className="btn btn-primary"
+                    >
+                      Visit Website
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 py-4">
+              <div className="card d-flex flex-column justify-content-around">
                 <img src={logo1} className="card-img-top" alt="MovieReact" />
                 <div className="card-body">
                   <h5 className="card-title">Movies by React</h5>
@@ -68,7 +86,7 @@ export default class Projects extends Component {
               </div>
             </div>
             <div className="col-md-4 py-4">
-              <div className="card">
+              <div className="card d-flex flex-column justify-content-around">
                 <img src={logo2} className="card-img-top" alt="NotesReact" />
                 <div className="card-body">
                   <h5 className="card-title">Notes by React</h5>
@@ -89,7 +107,7 @@ export default class Projects extends Component {
               </div>
             </div>
             <div className="col-md-4 py-4">
-              <div className="card">
+              <div className="card d-flex flex-column justify-content-around">
                 <img src={logo3} className="card-img-top" alt="Weathr" />
                 <div className="card-body">
                   <h5 className="card-title">Weathr by JS</h5>
@@ -109,7 +127,7 @@ export default class Projects extends Component {
               </div>
             </div>
             <div className="col-md-4 py-4">
-              <div className="card">
+              <div className="card d-flex flex-column justify-content-around">
                 <img src={logo4} className="card-img-top" alt="ANGORA" />
                 <div className="card-body">
                   <h5 className="card-title">ANGORA by Bootstrap</h5>
@@ -129,7 +147,7 @@ export default class Projects extends Component {
               </div>
             </div>
             <div className="col-md-4 py-4">
-              <div className="card">
+              <div className="card d-flex flex-column justify-content-around">
                 <img src={logo5} className="card-img-top" alt="LoginSystem" />
                 <div className="card-body">
                   <h5 className="card-title pt-4">Login System by js</h5>
@@ -149,7 +167,7 @@ export default class Projects extends Component {
               </div>
             </div>
             <div className="col-md-4 py-4">
-              <div className="card">
+              <div className="card d-flex flex-column justify-content-around">
                 <img src={logo6} className="card-img-top" alt="MovieJs" />
                 <div className="card-body">
                   <h5 className="card-title">Movies by js</h5>
@@ -169,7 +187,7 @@ export default class Projects extends Component {
               </div>
             </div>
             <div className="col-md-4 py-4">
-              <div className="card">
+              <div className="card d-flex flex-column justify-content-around">
                 <img src={logo7} className="card-img-top" alt="Quiz" />
                 <div className="card-body">
                   <h5 className="card-title">Quiz by js</h5>
@@ -189,7 +207,7 @@ export default class Projects extends Component {
               </div>
             </div>
             <div className="col-md-4 py-4">
-              <div className="card">
+              <div className="card d-flex flex-column justify-content-around">
                 <img src={logo8} className="card-img-top" alt="Wedding" />
                 <div className="card-body">
                   <h5 className="card-title">Wedding by js</h5>
@@ -209,7 +227,7 @@ export default class Projects extends Component {
               </div>
             </div>
             <div className="col-md-4 py-4">
-              <div className="card">
+              <div className="card d-flex flex-column justify-content-around">
                 <img
                   src={logo9}
                   className="card-img-top"
@@ -232,7 +250,7 @@ export default class Projects extends Component {
               </div>
             </div>
             <div className="col-md-4 py-4">
-              <div className="card">
+              <div className="card d-flex flex-column justify-content-around">
                 <img src={logo10} className="card-img-top" alt="CRUDSystem" />
                 <div className="card-body">
                   <h5 className="card-title">CRUD System by js</h5>
@@ -240,24 +258,6 @@ export default class Projects extends Component {
                   <div className="d-flex justify-content-center">
                     <a
                       href="https://ahmedabdelhamid12l.github.io/CRUD-system/"
-                      target="_blank"
-                      className="btn btn-primary"
-                    >
-                      Visit Website
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4 py-4">
-              <div className="card">
-                <img src={logo12} className="card-img-top" alt="MODALjs" />
-                <div className="card-body">
-                  <h5 className="card-title pt-4">MODAL by js</h5>
-                  <p className="card-text">Using pure js Make this Website</p>
-                  <div className="d-flex justify-content-center">
-                    <a
-                      href="https://ahmedabdelhamid12l.github.io/Carousel-Modal-JS/"
                       target="_blank"
                       className="btn btn-primary"
                     >

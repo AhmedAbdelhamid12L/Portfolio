@@ -7,7 +7,7 @@ export default class Navbar extends Component {
       <>
         <nav className="navbar navbar-expand-lg navbar-dark ">
           <div className="container py-3">
-            <a className="navbar-brand fs-2 fw-bolder main-text-Color" href="#">divDEV</a>
+            <a className="navbar-brand fs-2 fw-bolder main-text-Color" href="#">HAMIDO12</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon main-bg-Color"></span>
             </button>

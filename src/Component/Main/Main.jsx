@@ -21,8 +21,8 @@ export default class Main extends Component {
                 <i className="fas fa-star fa-3x px-2 text-white"></i>
                 <div className={style.line}></div>
               </div>
-              <p className="h3 fs-2 pt-3">I am a Front End Developer</p>
-              <p className="h3 fs-2 pt-3">React.js Developer</p>
+              <p className="h3 fs-2 pt-3">I am a Web Developer</p>
+              <p className="h3 fs-2 pt-3">MERN stack Developer</p>
             </div>
           </div>
           <div className='d-flex justify-content-center'>

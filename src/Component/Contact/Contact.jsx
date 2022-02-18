@@ -33,7 +33,7 @@ export default function Contact() {
           <div className='row'>
             <div className='col-md-4 pt-5 mt-5'>
               <p className='h3'><i className='fas fa-map-marker-alt pe-3'></i> Address </p>
-              <p className='fs-4 pb-4'> Ismailia, Egypt </p>
+              <p className='fs-4 pb-4'> Cairo, Egypt </p>
               <p className='h3'><i className='fas fa-phone-alt pe-3'></i> Tel. </p>
               <p className='fs-4 pb-4'> (+2) 01151667739  </p>
               <p className='h3'><i className='fas fa-envelope pe-3'></i> E-mail </p>

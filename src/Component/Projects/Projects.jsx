@@ -3,7 +3,7 @@ import style from "./Projects.module.css";
 import logo1 from "../../images/MovieReact.PNG";
 import logo2 from "../../images/NotesReact.PNG";
 import logo3 from "../../images/Weathr.PNG";
-import logo4 from "../../images/ANGORA.PNG";
+import logo4 from "../../images/Memories.PNG";
 import logo5 from "../../images/LoginSystem.PNG";
 import logo6 from "../../images/MovieJs.PNG";
 import logo7 from "../../images/Quiz.PNG";
@@ -29,9 +29,30 @@ export default class Projects extends Component {
           <div className="row">
             <div className="col-md-4 py-4">
               <div className="card">
+                <img src={logo4} className="card-img-top" alt="Memorise" />
+                <div className="card-body">
+                  <h5 className="card-title pt-5">Memorise</h5>
+                  <p className="card-text">
+                    MERN Stack App React Node Express Mongo MongoAtls
+                    material-ui
+                  </p>
+                  <div className="d-flex justify-content-center">
+                    <a
+                      href="https://memories-app-hamido12.netlify.app/"
+                      target="_blank"
+                      className="btn btn-primary"
+                    >
+                      Visit Website
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 py-4">
+              <div className="card">
                 <img src={logo11} className="card-img-top" alt="OnlineStore" />
                 <div className="card-body">
-                  <h5 className="card-title pt-4">Online Store</h5>
+                  <h5 className="card-title pt-5">Online Store</h5>
                   <p className="card-text">
                     Using React.Js and GraphQL APIs to Fetching data
                   </p>
@@ -47,12 +68,19 @@ export default class Projects extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
-              <div className="card d-flex">
-                <img src={logo12} className="card-img-top" alt="FavoriteBooks" />
+            <div className="col-md-4 py-4">
+              <div className="card">
+                <img
+                  src={logo12}
+                  className="card-img-top"
+                  alt="FavoriteBooks"
+                />
                 <div className="card-body">
-                  <h5 className="card-title pt-4">Favorite Books</h5>
-                  <p className="card-text">MERNG Project - Simple Full Stack Project <br /> React & Node.js & Mongo & GraphQl</p>
+                  <h5 className="card-title">Favorite Books</h5>
+                  <p className="card-text">
+                    MERNG Project - Simple Full Stack Project <br /> React &
+                    Node.js & Mongo & GraphQl
+                  </p>
                   <div className="d-flex justify-content-center">
                     <a
                       href="https://ahmedabdelhamid12l.github.io/favorite-books-client/"
@@ -117,26 +145,6 @@ export default class Projects extends Component {
                   <div className="d-flex justify-content-center">
                     <a
                       href="https://ahmedabdelhamid12l.github.io/Weather-JS/"
-                      target="_blank"
-                      className="btn btn-primary"
-                    >
-                      Visit Website
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4 py-4">
-              <div className="card">
-                <img src={logo4} className="card-img-top" alt="ANGORA" />
-                <div className="card-body">
-                  <h5 className="card-title">ANGORA by Bootstrap</h5>
-                  <p className="card-text">
-                    Using HTML & CSS & Bootstrap Only Make this Website
-                  </p>
-                  <div className="d-flex justify-content-center">
-                    <a
-                      href="https://ahmedabdelhamid12l.github.io/ANGORA-Training-on-a-pre-designed-website/"
                       target="_blank"
                       className="btn btn-primary"
                     >

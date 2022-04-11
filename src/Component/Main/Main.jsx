@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import style from "./Main.module.css"
 import logo from '../../images/my photo.jpeg'
-import cv from '../../CV/Dev. Abdelhamid cv.pdf'
+import cv from '../../CV/Dev.AbdelhamidV2CV.pdf'
 
 export default class Main extends Component {
   render() {

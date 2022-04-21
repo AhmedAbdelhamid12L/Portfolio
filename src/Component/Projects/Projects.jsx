@@ -43,6 +43,7 @@ export default class Projects extends Component {
                   <div className="d-flex justify-content-center pt-2">
                     <a
                       href="https://github.com/AhmedAbdelhamid12L?tab=repositories"
+                      target="_blank"
                       className="btn btn-primary"
                     >
                       Visit GitHub
@@ -120,12 +121,12 @@ export default class Projects extends Component {
             <div className="col-md-4 py-4">
               <div className="card d-flex">
                 <img src={logo1} className="card-img-top" alt="MovieReact" />
-                <div className="card-body">
+                <div className="card-body pt-5">
                   <h5 className="card-title">Movies by React</h5>
                   <p className="card-text">
                     Using React.js and Movies APIS Make this Website
                   </p>
-                  <div className="d-flex justify-content-center">
+                  <div className="d-flex justify-content-center pt-3">
                     <a
                       href="https://ahmedabdelhamid12l.github.io/MovieDB-By-React/"
                       target="_blank"
@@ -140,13 +141,13 @@ export default class Projects extends Component {
             <div className="col-md-4 py-4">
               <div className="card">
                 <img src={logo2} className="card-img-top" alt="NotesReact" />
-                <div className="card-body">
+                <div className="card-body pt-5">
                   <h5 className="card-title">Notes by React</h5>
                   <p className="card-text">
                     Using React.js , APIS and some plugin for animation Make
                     this Website
                   </p>
-                  <div className="d-flex justify-content-center">
+                  <div className="d-flex justify-content-center pt-3">
                     <a
                       href="https://ahmedabdelhamid12l.github.io/Notes-By-React/"
                       target="_blank"

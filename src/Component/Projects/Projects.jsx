@@ -7,7 +7,7 @@ import logo4 from "../../images/Memories.PNG";
 import logo5 from "../../images/LoginSystem.PNG";
 import logo6 from "../../images/MovieJs.PNG";
 import logo7 from "../../images/Quiz.PNG";
-import logo8 from "../../images/Wedding.PNG";
+import logo8 from "../../images/skills/node-js-icon-8.jpg";
 import logo9 from "../../images/BookmarkWebsite.PNG";
 import logo10 from "../../images/CRUDSystem.PNG";
 import logo11 from "../../images/OnlineStore.PNG";
@@ -27,6 +27,30 @@ export default class Projects extends Component {
         </div>
         <div className="container">
           <div className="row">
+            <div className="col-md-4 py-4">
+              <div className="card">
+                <img
+                  src={logo8}
+                  className="card-img-top w-50 m-auto"
+                  alt="Node Js"
+                />
+                <div className="card-body pt-4">
+                  <h5 className="card-title">Node Projects</h5>
+                  <p className="card-text">
+                    Back End Projects using Node Js <br />
+                    To see projects visit my GitHub
+                  </p>
+                  <div className="d-flex justify-content-center pt-2">
+                    <a
+                      href="https://github.com/AhmedAbdelhamid12L?tab=repositories"
+                      className="btn btn-primary"
+                    >
+                      Visit GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="col-md-4 py-4">
               <div className="card">
                 <img src={logo4} className="card-img-top" alt="Memorise" />
@@ -206,26 +230,6 @@ export default class Projects extends Component {
                     <a
                       href="https://ahmedabdelhamid12l.github.io/Quiz-By-JS/"
                       target="_blank"
-                      className="btn btn-primary"
-                    >
-                      Visit Website
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4 py-4">
-              <div className="card">
-                <img src={logo8} className="card-img-top" alt="Wedding" />
-                <div className="card-body">
-                  <h5 className="card-title">Wedding by js</h5>
-                  <p className="card-text">
-                    Using Pure js and some animation from JQuery make this
-                    Website
-                  </p>
-                  <div className="d-flex justify-content-center">
-                    <a
-                      href="https://ahmedabdelhamid12l.github.io/specific-time-JQuery/"
                       className="btn btn-primary"
                     >
                       Visit Website
